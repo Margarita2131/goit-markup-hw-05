@@ -135,6 +135,7 @@ address {
 }
 
 .header {
+
     padding-top: 24px;
     padding-bottom: 25px;
     position: fixed;
@@ -546,7 +547,6 @@ address {
     background-color: var(--basic-backgroud-color);
     color: var(--icon-color);
     fill: currentColor;
-     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team .link.social-netwrk:hover,
@@ -598,7 +598,6 @@ address {
     cursor: pointer;
     color: var(--icon-color);
     fill: currentColor;
-        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
@@ -702,6 +701,7 @@ address {
 /* Portfolio */
 
 .portfolio {
+    margin-top: 80px;
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -805,7 +805,7 @@ address {
     left: 0;
     background-color: rgba(33, 150, 243, 0.9);
 
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 250ms var(--timing-func);
 }
 
