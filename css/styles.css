@@ -596,6 +596,7 @@ address {
     align-items: center;
     width: 170px;
     height: 92px;
+    transition: border, fill;
     border: 1px solid var(--icon-color);
     border-radius: 4px;
     cursor: pointer;
@@ -613,6 +614,7 @@ address {
 .clients.link-icon {
     width: 106px;
     height: 60px;
+  fill: currentColor;
 }
 
 /* Footer */
